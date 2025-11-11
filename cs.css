@@ -1,0 +1,103 @@
+ body {
+    background: linear-gradient( skyblue,lightgreen);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url(hgh.jpg);
+         background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+
+
+        
+    }
+
+    h1 {
+        border-top-style: double;
+        border-bottom-style: double;
+        border-left-style:inset;
+        border-left-width: 10px;
+        border-left-color: silver;
+        color: blueviolet;
+        font-family: "press Start 2P";
+        background: linear-gradient(to right  skyblue,lightgreen);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        text-shadow: 0px 0px 5px blueviolet,0px -5px 5px ;
+    }
+    h1:hover{
+        box-shadow: 5px 5px 5px white;
+    }
+
+    p { 
+       
+        font-family: "consolas";
+        color:whitesmoke;
+        font-style: italic;
+        font-weight:bold;
+        background: linear-gradient(to left skyblue,lightgreen);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    #p1{
+        color:whitesmoke;
+    }
+    a:link{
+        color: red;
+    }
+    a:visited{
+        color: red;
+    }
+    a:hover{
+        color: red;
+    }
+    a:active{
+        color: fuchsia;
+    }
+    button:active{
+        background-color: lawngreen;
+    }
+    ol{
+        color: cornsilk;
+    }
+    li:nth-child(even)
+    {color: yellow;}
+    .fa-dragon{color: azure;}
+    .fa-carrot{
+        color: orange;
+    }
+    .fa-dove{
+        color:whitesmoke;
+    }
+    .fa-youtube{
+        color: red;
+    }
+    #box1{
+        border: 5px solid;
+        width: 300px;
+        height: 300px;
+        font-size: 225px;
+        text-align: center;
+        background-color: aquamarine;
+        animation: 5s linear 0s infinite running mycolor;   
+        
+       /* animation: 3s linear 1s infinite running mySlide;*/
+    }
+    #box1:active{
+         
+    }
+    @keyframes mySlide{
+        from{margin-left:0%;}
+        to{margin-left:100%;}
+    }
+    @keyframes myrotate {
+        100%{transform: rotateX(360deg);}
+    }
+    @keyframes mycolor {
+        20%{background-color: red;}
+        40%{background-color: orange;}
+        60%{background-color: yellow;}
+        80%{background-color: green;}
+        100%{background-color:blue;}
+        
+    }
